@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "b": {
+      "item": "minecraft:gold_ingot"
+    },
+    "t": {
+      "item": "minecraft:gold_nugget"
+    }
+  },
+  "pattern": [
+    "t t",
+    "b b",
+    "bbb"
+  ],
+  "result": {
+    "id": "simplehorseshoes:golden_horseshoe"
+  }
+}

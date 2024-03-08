@@ -1,0 +1,46 @@
+{
+	"schemaVersion": 1,
+	"id": "simplehorseshoes",
+	"version": "${version}",
+	
+	"name": "simplehorseshoes",
+	"description": "Adds Horseshoes",
+	"authors": [
+		"Shnupbups"
+	],
+	"contact": {
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/simple-horseshoes",
+		"sources": "https://github.com/Shnupbups/simplehorseshoes",
+		"issues": "https://github.com/Shnupbups/simplehorseshoes/issues"
+	},
+	
+	"license": "CC0-1.0",
+	"icon": "assets/simplehorseshoes/icon.png",
+	
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.shnupbups.simplehorseshoes.SimpleHorseshoes"
+		],
+		"client": [
+			"com.shnupbups.simplehorseshoes.SimpleHorseshoesClient"
+		],
+		"fabric-datagen": [
+			"com.shnupbups.simplehorseshoes.data.SimpleHorseshoesDataGenerator"
+		]
+	},
+	
+	"mixins": [
+		"simplehorseshoes.mixins.json",
+		{
+			"config": "simplehorseshoes.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	
+	"depends": {
+		"fabricloader": ">=0.15.6",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}

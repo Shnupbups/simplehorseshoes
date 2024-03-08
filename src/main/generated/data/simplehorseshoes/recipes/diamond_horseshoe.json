@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "b": {
+      "item": "minecraft:diamond"
+    },
+    "t": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "pattern": [
+    "t t",
+    "b b",
+    "bbb"
+  ],
+  "result": {
+    "id": "simplehorseshoes:diamond_horseshoe"
+  }
+}

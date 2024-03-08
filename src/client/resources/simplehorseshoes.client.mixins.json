@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "com.shnupbups.simplehorseshoes.mixin.client",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "HorseEntityRendererMixin",
+    "HorseScreenMixin",
+    "SmithingScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+	}
+}

@@ -1,0 +1,11 @@
+{
+  "item.simplehorseshoes.iron_horseshoe": "Iron Horseshoe",
+  "item.simplehorseshoes.golden_horseshoe": "Golden Horseshoe",
+  "item.simplehorseshoes.diamond_horseshoe": "Diamond Horseshoe",
+  "item.simplehorseshoes.netherite_horseshoe": "Netherite Horseshoe",
+
+  "item.minecraft.potion.effect.bad_luck": "Potion of Bad Luck",
+  "item.minecraft.splash_potion.effect.bad_luck": "Splash Potion of Bad Luck",
+  "item.minecraft.lingering_potion.effect.bad_luck": "Lingering Potion of Bad Luck",
+  "item.minecraft.tipped_arrow.effect.bad_luck": "Arrow of Bad Luck"
+}

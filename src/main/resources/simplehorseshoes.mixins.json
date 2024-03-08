@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "com.shnupbups.simplehorseshoes.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "AbstractHorseEntityMixin",
+    "HorseEntityMixin",
+    "HorseScreenHandlerMixin",
+    "LivingEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+	}
+}
