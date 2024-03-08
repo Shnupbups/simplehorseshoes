@@ -14,7 +14,7 @@
 		"issues": "https://github.com/Shnupbups/simplehorseshoes/issues"
 	},
 	
-	"license": "CC0-1.0",
+	"license": "LGPL-v3",
 	"icon": "assets/simplehorseshoes/icon.png",
 	
 	"environment": "*",
